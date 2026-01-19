@@ -1,0 +1,212 @@
+C:\Users\Pappu>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::9f76:fdfa:b73e:2de%16
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::30b1:dd49:6c1d:2156%13
+   IPv4 Address. . . . . . . . . . . : 192.168.1.5
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%13
+                                       192.168.1.1
+
+C:\Users\Pappu>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=13ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=3ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=3ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=4ms TTL=118
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 13ms, Average = 5ms
+
+C:\Users\Pappu>ping google.com
+
+Pinging google.com [142.250.66.14] with 32 bytes of data:
+Reply from 142.250.66.14: bytes=32 time=4ms TTL=118
+Reply from 142.250.66.14: bytes=32 time=2ms TTL=118
+Reply from 142.250.66.14: bytes=32 time=3ms TTL=118
+Reply from 142.250.66.14: bytes=32 time=3ms TTL=118
+
+Ping statistics for 142.250.66.14:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 4ms, Average = 3ms
+
+C:\Users\Pappu>netstat -ano
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1720
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       11268
+  TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING       18324
+  TCP    0.0.0.0:45769          0.0.0.0:0              LISTENING       14824
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       1432
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       1276
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       2096
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       3124
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       3384
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       1360
+  TCP    127.0.0.1:12072        0.0.0.0:0              LISTENING       4620
+  TCP    127.0.0.1:51491        127.0.0.1:51492        ESTABLISHED     18364
+  TCP    127.0.0.1:51492        127.0.0.1:51491        ESTABLISHED     18364
+  TCP    127.0.0.1:51493        127.0.0.1:51494        ESTABLISHED     15280
+  TCP    127.0.0.1:51494        127.0.0.1:51493        ESTABLISHED     15280
+  TCP    127.0.0.1:63963        127.0.0.1:63964        ESTABLISHED     4832
+  TCP    127.0.0.1:63964        127.0.0.1:63963        ESTABLISHED     4832
+  TCP    192.168.1.5:139        0.0.0.0:0              LISTENING       4
+  TCP    192.168.1.5:49418      4.213.25.240:443       ESTABLISHED     4824
+  TCP    192.168.1.5:49708      23.202.229.22:443      CLOSE_WAIT      14748
+  TCP    192.168.1.5:49709      202.88.160.43:443      CLOSE_WAIT      14748
+  TCP    192.168.1.5:49712      202.88.167.34:443      CLOSE_WAIT      14748
+  TCP    192.168.1.5:49713      23.53.128.229:80       ESTABLISHED     14748
+  TCP    192.168.1.5:49725      216.239.36.223:443     TIME_WAIT       0
+  TCP    192.168.1.5:51496      34.160.144.191:443     TIME_WAIT       0
+  TCP    192.168.1.5:51498      34.160.122.198:443     TIME_WAIT       0
+  TCP    192.168.1.5:51512      34.107.221.82:80       TIME_WAIT       0
+  TCP    192.168.1.5:51514      34.107.243.93:443      TIME_WAIT       0
+  TCP    192.168.1.5:51516      34.107.221.82:80       TIME_WAIT       0
+  TCP    192.168.1.5:51517      34.107.243.93:443      ESTABLISHED     18364
+  TCP    192.168.1.5:51518      18.161.245.37:443      TIME_WAIT       0
+  TCP    192.168.1.5:51523      34.120.208.123:443     TIME_WAIT       0
+  TCP    192.168.1.5:51539      84.17.50.23:443        TIME_WAIT       0
+  TCP    192.168.1.5:51542      57.144.57.32:443       ESTABLISHED     18364
+  TCP    192.168.1.5:51551      108.159.4.48:443       TIME_WAIT       0
+  TCP    192.168.1.5:51552      104.18.39.21:443       TIME_WAIT       0
+  TCP    192.168.1.5:51555      34.49.51.44:443        TIME_WAIT       0
+  TCP    192.168.1.5:51560      172.64.144.52:443      TIME_WAIT       0
+  TCP    192.168.1.5:53783      57.144.57.32:5222      ESTABLISHED     6172
+  TCP    192.168.1.5:53785      51.104.15.252:443      ESTABLISHED     4860
+  TCP    192.168.1.5:55861      150.171.28.11:443      ESTABLISHED     7972
+  TCP    192.168.1.5:55862      13.107.5.93:443        ESTABLISHED     2592
+  TCP    192.168.1.5:55863      40.74.78.229:443       ESTABLISHED     12628
+  TCP    192.168.1.5:55864      40.74.78.229:443       ESTABLISHED     8828
+  TCP    192.168.1.5:55865      49.44.146.150:443      ESTABLISHED     2676
+  TCP    192.168.1.5:55866      49.44.144.118:80       ESTABLISHED     13416
+  TCP    192.168.1.5:55868      23.37.252.166:80       ESTABLISHED     13416
+  TCP    192.168.1.5:55869      23.37.252.166:443      ESTABLISHED     13416
+  TCP    192.168.1.5:57050      4.213.25.241:443       ESTABLISHED     11996
+  TCP    192.168.1.5:61665      13.89.179.10:443       TIME_WAIT       0
+  TCP    192.168.1.5:61667      13.107.139.11:443      TIME_WAIT       0
+  TCP    192.168.1.5:61668      52.104.32.55:443       ESTABLISHED     11996
+  TCP    192.168.1.5:61669      104.18.39.21:443       ESTABLISHED     18364
+  TCP    192.168.1.5:61670      40.104.66.178:443      TIME_WAIT       0
+  TCP    192.168.1.5:61671      40.104.66.178:443      TIME_WAIT       0
+  TCP    192.168.1.5:61672      20.190.145.160:443     TIME_WAIT       0
+  TCP    192.168.56.1:139       0.0.0.0:0              LISTENING       4
+  TCP    [::]:80                [::]:0                 LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       1720
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:7680              [::]:0                 LISTENING       18324
+  TCP    [::]:49664             [::]:0                 LISTENING       1432
+  TCP    [::]:49665             [::]:0                 LISTENING       1276
+  TCP    [::]:49666             [::]:0                 LISTENING       2096
+  TCP    [::]:49667             [::]:0                 LISTENING       3124
+  TCP    [::]:49668             [::]:0                 LISTENING       3384
+  TCP    [::]:49669             [::]:0                 LISTENING       1360
+  UDP    0.0.0.0:5050           *:*                                    11268
+  UDP    0.0.0.0:5353           *:*                                    2136
+  UDP    0.0.0.0:5355           *:*                                    2136
+  UDP    0.0.0.0:45769          *:*                                    14824
+  UDP    0.0.0.0:49851          *:*                                    2136
+  UDP    0.0.0.0:56448          *:*                                    2136
+  UDP    0.0.0.0:61928          *:*                                    18364
+  UDP    127.0.0.1:1900         *:*                                    15436
+  UDP    127.0.0.1:61357        *:*                                    15436
+  UDP    127.0.0.1:64004        127.0.0.1:64004                        4684
+  UDP    192.168.1.5:137        *:*                                    4
+  UDP    192.168.1.5:138        *:*                                    4
+  UDP    192.168.1.5:1900       *:*                                    15436
+  UDP    192.168.1.5:61356      *:*                                    15436
+  UDP    192.168.56.1:137       *:*                                    4
+  UDP    192.168.56.1:138       *:*                                    4
+  UDP    192.168.56.1:1900      *:*                                    15436
+  UDP    192.168.56.1:61355     *:*                                    15436
+  UDP    [::]:5353              *:*                                    2136
+  UDP    [::]:5355              *:*                                    2136
+  UDP    [::]:49851             *:*                                    2136
+  UDP    [::]:56448             *:*                                    2136
+  UDP    [::1]:1900             *:*                                    15436
+  UDP    [::1]:61354            *:*                                    15436
+  UDP    [fe80::30b1:dd49:6c1d:2156%13]:1900  *:*                                    15436
+  UDP    [fe80::30b1:dd49:6c1d:2156%13]:61353  *:*                                    15436
+  UDP    [fe80::9f76:fdfa:b73e:2de%16]:1900  *:*                                    15436
+  UDP    [fe80::9f76:fdfa:b73e:2de%16]:61352  *:*                                    15436
+
+C:\Users\Pappu>nslookup google.com
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4007:83d::200e
+          142.250.66.14
+
+
+C:\Users\Pappu>tracert google.com
+
+Tracing route to google.com [142.250.66.14]
+over a maximum of 30 hops:
+
+  1     2 ms    <1 ms    <1 ms  192.168.1.1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     3 ms     2 ms     3 ms  bom07s35-in-f14.1e100.net [142.250.66.14]
+
+Trace complete.
+
+C:\Users\Pappu>
+C:\Users\Pappu>netsh interface show interface
+
+Admin State    State          Type             Interface Name
+-------------------------------------------------------------------------
+Enabled        Connected      Dedicated        Ethernet 2
+Enabled        Connected      Dedicated        Wi-Fi
+
+
+C:\Users\Pappu>netsh interface set interface "Wi-Fi" disable
+The requested operation requires elevation (Run as administrator).
+
+
+C:\Users\Pappu>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+General failure.
+General failure.
+Request timed out.
+Reply from 192.168.1.5: Destination host unreachable.
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 1, Lost = 3 (75% loss),
+
+C:\Users\Pappu>
